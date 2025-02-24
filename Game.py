@@ -8,7 +8,7 @@ def gen_ran_number(n):
 def gus_num():
     print("-----------GAME STARTED------------\n")
     ans = gen_ran_number(100)
-    print(ans)  # ans
+    # print(ans)  # ans
 
     option = []
     for i in range(1, 6):
@@ -49,7 +49,7 @@ def gus_num():
 def rock_paper_scissor():
     print("-----------GAME STARTED------------\n")
     computer = gen_ran_number(3)
-    print("Computer Choice ", computer)
+    # print("Computer Choice ", computer)
     print("1. Rock \n2. Paper\n3.Scissor\n")
     choice = int(input("Enter Your Choice: "))
     match (choice):
